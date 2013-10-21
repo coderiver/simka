@@ -64,8 +64,8 @@ dl dd .button:first-child { margin-right: 66px; }
 .form ul { list-style: none; font-size: 24px; color: #edd79f; width: 430px; margin-left: 60px; font-family: bodoni, sans-serif; }
 .form ul li { display: inline-block; width: 115px; float: left; margin-bottom: 6px; }
 .form ul li.long { width: 300px; }
-.form ul li input[type=checkbox] { display: none; }
-.form ul li input[type=checkbox] + i { display: inline-block; background: url('../img/icons-s17c631626f.png') 0 -1015px no-repeat; width: 19px; height: 20px; margin-right: 5px; vertical-align: middle; position: relative; top: -3px; }
-.form ul li input[type=checkbox]:checked + i { background: url('../img/icons-s17c631626f.png') 0 -739px no-repeat; width: 19px; height: 20px; }
+.form ul li input[type=radio] { display: none; }
+.form ul li input[type=radio] + i { display: inline-block; background: url('../img/icons-s17c631626f.png') 0 -1015px no-repeat; width: 19px; height: 20px; margin-right: 5px; vertical-align: middle; position: relative; top: -3px; }
+.form ul li input[type=radio]:checked + i { background: url('../img/icons-s17c631626f.png') 0 -739px no-repeat; width: 19px; height: 20px; }
 .form ul li input[type=text] { border-style: none; border-radius: 8px/7px; background-clip: padding-box; background-color: #fff3d7; box-shadow: inset 1px 2px 2px rgba(110, 90, 76, 0.38); vertical-align: middle; width: 60px; text-align: center; padding: 3px 5px; font-size: 16px; margin-left: 5px; }
 .form ul li label { cursor: pointer; }
