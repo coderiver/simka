@@ -40,7 +40,8 @@ dl dd .button:first-child { margin-right: 66px; }
 .bottombanner ul { font-size: 19px; margin-bottom: 4px; margin-left: 20px; font-family: bodoni, sans-serif; }
 .bottombanner ul li:first-child { float: right; width: 50%; left: 25px; position: relative; }
 
-.bam { background: url('../img/icons-s17c631626f.png') 0 -614px no-repeat; width: 148px; height: 115px; position: absolute; top: 0; left: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 16px; color: #3c2610; font-family: bodoni, sans-serif; padding-left: 17px; padding-top: 4px; text-decoration: none; }
+.bam { background: url('../img/icons-s17c631626f.png') 0 -614px no-repeat; width: 148px; height: 115px; position: absolute; top: 0; left: 0; font-size: 16px; color: #3c2610; font-family: bodoni, sans-serif; text-decoration: none; padding-top: 4px; }
+.bam .bam__in { padding-left: 17px; }
 .bam a { text-decoration: none; color: #3c2610; }
 
 .bon .bon__head { text-align: center; padding-top: 10px; }
