@@ -15,12 +15,22 @@
 	display: inline-block
 	cursor: pointer
 	opacity: .9
+	overflow: hidden
 	+transition(all .2s ease-in-out)
 	&:hover
 		opacity: 1
 	&.button_big
 		+s(buttonbig)
 		line-height: 43px 
+	input
+		position: absolute
+		opacity: 0
+		-webkit-appearance: none
+		left: 0
+		width: 100%
+		height: 60px 
+		z-index: 1  
+		cursor: pointer   
 		
 dl
 	text-align: center
