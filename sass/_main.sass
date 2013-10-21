@@ -18,6 +18,9 @@
 	+transition(all .2s ease-in-out)
 	&:hover
 		opacity: 1
+	&.button_big
+		+s(buttonbig)
+		line-height: 43px 
 		
 dl
 	text-align: center
@@ -80,3 +83,133 @@ dl
 				left: 25px 
 				position: relative
 		+i
+.bam
+	+s(bam)
+	position: absolute
+	top: 0
+	left: 0
+	+box-sizing(border-box)  
+	font-size: 16px 
+	color: #3c2610
+	+i
+	padding-left: 17px
+	padding-top: 4px 
+	text-decoration: none
+	a
+		text-decoration: none
+		color: #3c2610 
+.bon
+	.bon__head
+		text-align: center
+		padding-top: 10px 
+		.h1
+			+i 
+			font-weight: normal
+			text-align: center
+			font-size: 21px 
+			color: #7a5213 
+			font-size: 42px 
+			color: #ed008c
+		.h2
+			text-align: center
+			font-size: 21px 
+			font-weight: normal
+			+i
+.bonus
+	display: inline-block
+	width: 180px 
+	margin-right: 20px 
+	position: relative
+	text-align: left
+	margin: 0px 55px 0 0px 
+	position: relative
+	&:first-child, &.bonus_first
+		margin-left: 68px 
+	&:last-child, &.bonus_last
+		margin-right: 0 
+	.bonus__icon,.bonus__icon1,.bonus__icon2
+		position: absolute
+		+s(r1)
+		right: -5px 
+		top: -0px 
+	.bonus__icon1
+		+s(r2)
+		right: -15px 
+	.bonus__icon2
+		+s(r3)
+		right: -23px 
+	.bonus__price
+		color: #FF2B93 
+		font-size: 61px 
+		display: inline-block
+		line-height: 1 
+		position: relative
+		z-index: 10 
+		span
+			font-size: 20px 
+			display: block
+			text-align: right
+		span
+	p
+		font-size: 20px 
+		color: #3c2610
+		+i
+		span
+			font-size: 15px 
+			display: block
+.form
+	+s(form) 
+	margin: 0 auto 
+	margin-top: 12px
+	h2
+		font-weight: normal
+		color: #FFF 
+		font-size: 27px
+		padding-top: 10px 
+		text-align: center 
+		+i
+	.button
+		position: absolute
+		bottom: 40px 
+		right: 67px 
+	ul
+		list-style: none
+		font-size: 24px 
+		color: #edd79f
+		width: 430px 
+		margin-left: 60px 
+		+i 
+		li
+			display: inline-block
+			width: 115px 
+			float: left
+			margin-bottom: 6px 
+			&.long
+				width: 300px 
+			input[type=checkbox]
+				display: none
+				&+i
+					display: inline-block
+					+s(checkbox)
+					margin-right: 5px 
+					vertical-align: middle
+					position: relative
+					top: -3px 
+				&:checked + i
+					+s(checkboxa)
+			input[type=text]
+				border-style: none
+				border-radius: 8px / 7px
+				background-clip: padding-box
+				background-color: #fff3d7
+				box-shadow: inset 1px 2px 2px rgba(110,90,76,.38)
+				vertical-align: middle
+				width: 60px 
+				text-align: center
+				padding: 3px 5px
+				font-size: 16px 
+				margin-left: 5px 
+
+			label
+				cursor: pointer
+					

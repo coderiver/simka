@@ -19,8 +19,9 @@ a img, fieldset { border: none; }
 
 .wrapper { width: 760px; height: 500px; background: url(../img/bg.jpg) no-repeat 0 0; position: relative; color: #7a5213; }
 
-.button { background: url('../img/icons-s2d74c7f210.png') 0 0 no-repeat; width: 94px; height: 49px; text-align: center; font-size: 23px; color: #34200e; text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.5); line-height: 49px; display: inline-block; cursor: pointer; opacity: 0.9; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.button { background: url('../img/icons-s17c631626f.png') 0 -555px no-repeat; width: 94px; height: 49px; text-align: center; font-size: 23px; color: #34200e; text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.5); line-height: 49px; display: inline-block; cursor: pointer; opacity: 0.9; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 .button:hover { opacity: 1; }
+.button.button_big { background: url('../img/icons-s17c631626f.png') 0 -499px no-repeat; width: 158px; height: 46px; line-height: 43px; }
 
 dl { text-align: center; padding-top: 100px; }
 dl dt { font-size: 45px; font-style: normal; margin-bottom: 30px; font-family: bodoni, sans-serif; }
@@ -38,3 +39,33 @@ dl dd .button:first-child { margin-right: 66px; }
 .bottombanner h2 { font-size: 27px; font-weight: normal; font-family: bodoni, sans-serif; margin-bottom: 5px; }
 .bottombanner ul { font-size: 19px; margin-bottom: 4px; margin-left: 20px; font-family: bodoni, sans-serif; }
 .bottombanner ul li:first-child { float: right; width: 50%; left: 25px; position: relative; }
+
+.bam { background: url('../img/icons-s17c631626f.png') 0 -614px no-repeat; width: 148px; height: 115px; position: absolute; top: 0; left: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 16px; color: #3c2610; font-family: bodoni, sans-serif; padding-left: 17px; padding-top: 4px; text-decoration: none; }
+.bam a { text-decoration: none; color: #3c2610; }
+
+.bon .bon__head { text-align: center; padding-top: 10px; }
+.bon .bon__head .h1 { font-family: bodoni, sans-serif; font-weight: normal; text-align: center; font-size: 21px; color: #7a5213; font-size: 42px; color: #ed008c; }
+.bon .bon__head .h2 { text-align: center; font-size: 21px; font-weight: normal; font-family: bodoni, sans-serif; }
+
+.bonus { display: inline-block; width: 180px; margin-right: 20px; position: relative; text-align: left; margin: 0px 55px 0 0px; position: relative; }
+.bonus:first-child, .bonus.bonus_first { margin-left: 68px; }
+.bonus:last-child, .bonus.bonus_last { margin-right: 0; }
+.bonus .bonus__icon, .bonus .bonus__icon1, .bonus .bonus__icon2 { position: absolute; background: url('../img/icons-s17c631626f.png') 0 -397px no-repeat; width: 70px; height: 92px; right: -5px; top: 0px; }
+.bonus .bonus__icon1 { background: url('../img/icons-s17c631626f.png') 0 -102px no-repeat; width: 80px; height: 92px; right: -15px; }
+.bonus .bonus__icon2 { background: url('../img/icons-s17c631626f.png') 0 0 no-repeat; width: 90px; height: 92px; right: -23px; }
+.bonus .bonus__price { color: #ff2b93; font-size: 61px; display: inline-block; line-height: 1; position: relative; z-index: 10; }
+.bonus .bonus__price span { font-size: 20px; display: block; text-align: right; }
+.bonus p { font-size: 20px; color: #3c2610; font-family: bodoni, sans-serif; }
+.bonus p span { font-size: 15px; display: block; }
+
+.form { background: url('../img/icons-s17c631626f.png') 0 -204px no-repeat; width: 711px; height: 183px; margin: 0 auto; margin-top: 12px; }
+.form h2 { font-weight: normal; color: white; font-size: 27px; padding-top: 10px; text-align: center; font-family: bodoni, sans-serif; }
+.form .button { position: absolute; bottom: 40px; right: 67px; }
+.form ul { list-style: none; font-size: 24px; color: #edd79f; width: 430px; margin-left: 60px; font-family: bodoni, sans-serif; }
+.form ul li { display: inline-block; width: 115px; float: left; margin-bottom: 6px; }
+.form ul li.long { width: 300px; }
+.form ul li input[type=checkbox] { display: none; }
+.form ul li input[type=checkbox] + i { display: inline-block; background: url('../img/icons-s17c631626f.png') 0 -1015px no-repeat; width: 19px; height: 20px; margin-right: 5px; vertical-align: middle; position: relative; top: -3px; }
+.form ul li input[type=checkbox]:checked + i { background: url('../img/icons-s17c631626f.png') 0 -739px no-repeat; width: 19px; height: 20px; }
+.form ul li input[type=text] { border-style: none; border-radius: 8px/7px; background-clip: padding-box; background-color: #fff3d7; box-shadow: inset 1px 2px 2px rgba(110, 90, 76, 0.38); vertical-align: middle; width: 60px; text-align: center; padding: 3px 5px; font-size: 16px; margin-left: 5px; }
+.form ul li label { cursor: pointer; }
