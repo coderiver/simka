@@ -1,0 +1,39 @@
+@font-face { font-family: bodoni; src: url("fonts/bodoniant-regita_0-webfont.eot"); src: url("fonts/bodoniant-regita_0-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/bodoniant-regita_0-webfont.woff") format("woff"), url("fonts/bodoniant-regita_0-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: bodonireg; src: url("fonts/bodoniant-reg_0-webfont.eot"); src: url("fonts/bodoniant-reg_0-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/bodoniant-reg_0-webfont.woff") format("woff"), url("fonts/bodoniant-reg_0-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+* { margin: 0; padding: 0; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
+button::-moz-focus-inner { padding: 0; border: 0; }
+
+input[type="submit"]::-moz-focus-inner { padding: 0; border: 0; }
+
+body { font-family: Arial, sans-serif; font-weight: normal; font-size: 12px; line-height: 1.4; font-family: bodonireg, sans-serif; }
+
+a img, fieldset { border: none; }
+
+.l { width: 100%; display: inline-block; }
+.l .l-col1 { float: left; width: 20%; }
+.l .l-col2 { float: right; width: 70%; }
+
+.wrapper { width: 760px; height: 500px; background: url(../img/bg.jpg) no-repeat 0 0; position: relative; color: #7a5213; }
+
+.button { background: url('../img/icons-s2d74c7f210.png') 0 0 no-repeat; width: 94px; height: 49px; text-align: center; font-size: 23px; color: #34200e; text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.5); line-height: 49px; display: inline-block; cursor: pointer; opacity: 0.9; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.button:hover { opacity: 1; }
+
+dl { text-align: center; padding-top: 100px; }
+dl dt { font-size: 45px; font-style: normal; margin-bottom: 30px; font-family: bodoni, sans-serif; }
+dl dt span { font-size: 31px; position: relative; top: -0.5em; }
+dl dd { text-align: center; }
+dl dd .button:first-child { margin-right: 66px; }
+
+.note { position: absolute; bottom: 40px; font-size: 16px; line-height: 1.6; text-align: center; width: 100%; left: 0; font-family: bodoni, sans-serif; }
+
+.message { text-align: center; padding-top: 130px; font-size: 45px; font-family: bodoni, sans-serif; }
+
+.bottombanner { position: absolute; left: 0; width: 100%; bottom: 0; height: 170px; color: #ed008c; background: url(../img/bottombanner.jpg) no-repeat 0 0; }
+.bottombanner .bottombanner__in { position: absolute; top: 25px; left: 25px; width: 470px; }
+.bottombanner h2 { font-size: 27px; font-weight: normal; font-family: bodoni, sans-serif; margin-bottom: 5px; }
+.bottombanner ul { font-size: 19px; margin-bottom: 4px; font-family: bodoni, sans-serif; }
+.bottombanner ul li:first-child { float: right; width: 50%; left: 25px; position: relative; }

@@ -1,0 +1,79 @@
+// Normally mainpage styles
+.wrapper
+	width: 760px 
+	height: 500px
+	background: url(../img/bg.jpg) no-repeat 0 0 
+	position: relative
+	color: #7a5213 
+.button
+	+s(button)
+	text-align: center
+	font-size: 23px 
+	color: #34200E
+	text-shadow: 2px 2px 1px rgba(#fff, .5)
+	line-height: 49px 
+	display: inline-block
+	cursor: pointer
+	opacity: .9
+	+transition(all .2s ease-in-out)
+	&:hover
+		opacity: 1
+		
+dl
+	text-align: center
+	padding-top: 100px 
+	dt
+		font-size: 45px 
+		font-style: normal
+		margin-bottom: 30px 
+		+i
+		span
+			font-size: 31px 
+			position: relative
+			top: -.5em
+	dd
+		text-align: center
+		.button:first-child
+			margin-right: 66px 
+.note
+	position: absolute
+	bottom: 40px 
+	font-size: 16px 
+	line-height: 1.6 
+	text-align: center
+	width: 100%
+	left: 0  
+	+i
+.message
+	text-align: center
+	padding-top: 130px 
+	font-size: 45px 
+	+i
+.bottombanner
+	position: absolute
+	left: 0
+	width: 100%
+	bottom: 0
+	height: 170px 
+	color: #ed008c 
+	background: url(../img/bottombanner.jpg) no-repeat 0 0   
+	.bottombanner__in 	
+		position: absolute
+		top: 25px 
+		left: 25px 
+		width: 470px 
+	h2
+		font-size: 27px 
+		font-weight: normal
+		+i
+		margin-bottom: 5px 
+	ul
+		font-size: 19px 
+		margin-bottom: 4px 
+		li
+			&:first-child
+				float: right
+				width: 50% 
+				left: 25px 
+				position: relative
+		+i
