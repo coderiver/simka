@@ -19,6 +19,8 @@
 	+transition(all .2s ease-in-out)
 	display: inline
 	zoom: 1 
+	display: inline-block
+	
 	&:hover
 		opacity: 1
 	&.button_big
@@ -48,8 +50,19 @@ dl
 			top: -.5em
 	dd
 		text-align: center
+		zoom: 1
+		position: relative
 		.button:first-child
 			margin-right: 66px 
+		.button
+			.lteie8 &
+				margin: 0
+				float: left
+				margin-left: 70px 
+				position: relative
+				display: inline
+				left: 190px 
+				 
 .note
 	position: absolute
 	bottom: 40px 
@@ -89,11 +102,13 @@ dl
 		margin-bottom: 4px 
 		margin-left: 20px 
 		li
-			&:first-child
+			&:first-child,&.first-child
 				float: right
 				width: 50% 
 				left: 25px 
 				position: relative
+				zoom: 1
+				list-style-type: disc
 		+i
 .bam
 	+s(bam)
@@ -233,7 +248,7 @@ dl
 				padding: 3px 5px
 				font-size: 16px 
 				margin-left: 5px 
-
+			
 			label
 				cursor: pointer
 					

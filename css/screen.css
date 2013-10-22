@@ -19,7 +19,7 @@ a img, fieldset { border: none; }
 
 .wrapper { width: 760px; height: 500px; background: url(../img/bg.jpg) no-repeat 0 0; position: relative; color: #7a5213; }
 
-.button { background: url('../img/icons-s17c631626f.png') 0 -555px no-repeat; width: 94px; height: 49px; text-align: center; font-size: 23px; color: #34200e; text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.5); line-height: 49px; display: inline-block; cursor: pointer; opacity: 0.9; overflow: hidden; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; display: inline; zoom: 1; }
+.button { background: url('../img/icons-s17c631626f.png') 0 -555px no-repeat; width: 94px; height: 49px; text-align: center; font-size: 23px; color: #34200e; text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.5); line-height: 49px; display: inline-block; cursor: pointer; opacity: 0.9; overflow: hidden; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; display: inline; zoom: 1; display: inline-block; }
 .button:hover { opacity: 1; }
 .button.button_big { background: url('../img/icons-s17c631626f.png') 0 -499px no-repeat; width: 158px; height: 46px; line-height: 43px; }
 .button input { position: absolute; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; -webkit-appearance: none; left: 0; width: 100%; height: 60px; z-index: 1; cursor: pointer; }
@@ -27,8 +27,9 @@ a img, fieldset { border: none; }
 dl { text-align: center; padding-top: 100px; }
 dl dt { font-size: 45px; font-style: normal; margin-bottom: 30px; font-family: bodoni, sans-serif; }
 dl dt span { font-size: 31px; position: relative; top: -0.5em; }
-dl dd { text-align: center; }
+dl dd { text-align: center; zoom: 1; position: relative; }
 dl dd .button:first-child { margin-right: 66px; }
+.lteie8 dl dd .button { margin: 0; float: left; margin-left: 70px; position: relative; display: inline; left: 190px; }
 
 .note { position: absolute; bottom: 40px; font-size: 16px; line-height: 1.6; text-align: center; width: 100%; left: 0; font-family: bodoni, sans-serif; }
 
@@ -39,7 +40,7 @@ dl dd .button:first-child { margin-right: 66px; }
 .bottombanner .bottombanner__in { position: absolute; top: 25px; left: 25px; width: 470px; }
 .bottombanner h2 { font-size: 27px; font-weight: normal; font-family: bodoni, sans-serif; margin-bottom: 5px; }
 .bottombanner ul { font-size: 19px; margin-bottom: 4px; margin-left: 20px; font-family: bodoni, sans-serif; }
-.bottombanner ul li:first-child { float: right; width: 50%; left: 25px; position: relative; }
+.bottombanner ul li:first-child, .bottombanner ul li.first-child { float: right; width: 50%; left: 25px; position: relative; zoom: 1; list-style-type: disc; }
 
 .bam { background: url('../img/icons-s17c631626f.png') 0 -614px no-repeat; width: 148px; height: 115px; position: absolute; top: 0; left: 0; font-size: 16px; color: #3c2610; font-family: bodoni, sans-serif; text-decoration: none; padding-top: 4px; }
 .bam .bam__in { padding-left: 17px; }
