@@ -17,6 +17,8 @@
 	opacity: .9
 	overflow: hidden
 	+transition(all .2s ease-in-out)
+	display: inline
+	zoom: 1 
 	&:hover
 		opacity: 1
 	&.button_big
@@ -130,9 +132,13 @@ dl
 	width: 180px 
 	margin-right: 20px 
 	position: relative
+	display: inline
+	zoom: 1
+	float: left
 	text-align: left
 	margin: 0px 55px 0 0px 
 	position: relative
+	padding-bottom: 10px 
 	&:first-child, &.bonus_first
 		margin-left: 68px 
 	&:last-child, &.bonus_last
@@ -142,6 +148,7 @@ dl
 		+s(r1)
 		right: -5px 
 		top: -0px 
+		display: block
 	.bonus__icon1
 		+s(r2)
 		right: -15px 
@@ -152,17 +159,23 @@ dl
 		color: #FF2B93 
 		font-size: 61px 
 		display: inline-block
+		display: inline
 		line-height: 1 
+		float: left
 		position: relative
 		z-index: 10 
+		zoom: 1  
+		padding: 0 
 		span
 			font-size: 20px 
 			display: block
 			text-align: right
+			
 		span
 	p
 		font-size: 20px 
 		color: #3c2610
+		clear: both
 		+i
 		span
 			font-size: 15px 
@@ -171,6 +184,7 @@ dl
 	+s(form) 
 	margin: 0 auto 
 	margin-top: 12px
+	clear: both
 	h2
 		font-weight: normal
 		color: #FFF 
